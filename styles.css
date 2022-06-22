@@ -1,0 +1,72 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "Roboto";
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  position: absolute;
+  /* border: 2px solid white; */
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container__joke {
+  font-size: 3rem;
+  position: relative;
+  padding: 4rem;
+}
+
+/* .container__khaled { */
+
+/* background-image: url(img/djkhaled.jpg);
+  background-size: contain;
+  background-repeat: no-repeat; */
+/* } */
+.khaled {
+  width: 70%;
+}
+.btn {
+  /* background-image: url(img/djkhaled.jpg); */
+  position: relative;
+  text-transform: uppercase;
+  background-color: white;
+  padding: 12px;
+  border-radius: 100px;
+  font-weight: 600;
+  color: black;
+}
+
+.footer {
+  position: absolute;
+  top: 73rem;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .container__joke {
+    font-size: 2.4rem;
+    padding: 2rem;
+  }
+  .container__khaled {
+    margin-top: 5rem;
+  }
+  .footer {
+    top: 85rem;
+    font-size: 0.9rem;
+  }
+}
