@@ -49,6 +49,10 @@ body {
   color: black;
 }
 
+.btn:hover{
+  background-color: #a0a0a0;
+}
+
 .footer {
   position: absolute;
   top: 73rem;
